@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "OpenSans";
+}
+
+.container{
+	width: 1280px;
+	padding: 30px 20px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+header{	
+	background-color: #f6f2f2;
+}
+header nav{
+	height: 90px;
+	background-color: #313030;
+	text-align: center;
+}
+header nav a{
+	display: inline-block;
+	color: white;
+	line-height: 80px;
+	padding: 10px 25px 0 25px;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+header nav a.active{
+	background-color: #dd4142;
+}
+
+
+.present{
+	text-align: justify;
+	padding-bottom: 60px;
+}
+
+.present .head{
+	padding-top: 100px;
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+}
+.present .head h1{
+	font-size: 60px;
+	text-transform: uppercase; 
+	font-weight: bolder;
+	text-align: left;
+	padding-left:  18px;
+}
+.present .head .description{
+	color: #494848;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 25px;
+	padding-bottom: 60px;
+	padding-left:  18px;
+}
+.present .video{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 100px;
+}
+
+.present .video .video-content{
+	width: 550px;
+	height: 360px;
+	box-shadow: 0 0 10px 2px black;
+}
+
+
+
+
+
+
+
+
+/*common*/
+
+.button{
+	line-height: 55px;
+	padding: 0 65px;
+	border: 2px solid #ff3f40;
+	display: inline-block;
+	color: #ff3f40;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin-left: 18px;
+}
+
+.button:hover{
+	background-color: #ff3f40;
+	color: white;
+
+}
+.last-line{
+	display: inline-block;
+	width: 100%;
+}
+section{
+	background-color: #ffffff;
+}
+.services{
+	width: 1280px;
+	height: 690px;
+	padding-top: 110px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.services .container{
+	display: inline-block;
+	vertical-align: top;
+	width: 550px;
+	height: 580px;
+}
+.services .container h2{
+	padding: 0 auto;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+}
+.services .container .descr2{
+	color: #494848;
+	padding-top: 22px;
+	font-size: 18px;
+	line-height: 33px;
+	text-align: left;
+	padding-bottom: 60px;
+	padding-left:  18px;
+}
+.services .container2{
+	display: inline-block;
+	margin-left: 75px;
+	width: 650px;
+	
+}
+.services .info{
+	display: inline-block;
+	width: 288px;
+	vertical-align: top;
+	
+}
+.services .info2{
+	display: inline-block;
+	width: 288px;
+	vertical-align: top;
+	margin-left: 34px;
+
+
+}
+
+.services .info h4{
+	
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 72px;
+	color: #4c4c4c;
+
+}
+.services .info2 h4{
+	
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 72px;
+	color: #4c4c4c;
+
+}
+.services .container2 .info p{
+	color: #4c4c4c;
+	text-align: left;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 33px;
+	padding-bottom: 50px;
+	vertical-align: top;
+}
+.services .container2 .info2 p{
+	color: #4c4c4c;
+	text-align: left;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 33px;
+	padding-bottom: 50px;
+	vertical-align: top;
+}
+.button2{
+	line-height: 55px;
+	padding: 0 60px;
+	border: 2px solid #ff3f40;
+	display: inline-block;
+	background-color: #ff3f40;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin-left: 18px;
+}
+.button2:hover{
+	background-color: #ffffff;
+	color: #ff3f40;
+
+}
